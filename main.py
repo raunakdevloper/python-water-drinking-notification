@@ -1,0 +1,8 @@
+import time
+from plyer import notification
+
+if __name__ == "__main__":
+    notification.notify(
+        title = "please drink water",
+        massage = "pani pe lo frnds"
+    )
